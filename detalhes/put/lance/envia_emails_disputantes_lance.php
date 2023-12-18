@@ -13,10 +13,15 @@ $select_disputantes =
   GROUP BY id_usuario_lance
 ";
 
-$resultado_disputantes = executa_query($select_disputantes) or die();
+$resultado_disputantes = executa_query($select_disputantes);
+
+if (isset($resultado_disputantes->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado_disputantes->error_msg");
+}
+
 $dados = $resultado_disputantes->dados;
 
-if ( (int)sizeof($resultado_disputantes) > 0 ) {
+if ( !empty($resultado_disputantes->dados) ) {
   foreach($dados as $disputante) {
     if ( valida_email($disputante->email_usuario) ) { // VERIFICA SE O USUARIO CORRENTE TEM E-MAIL, E SE SIM, SE O MESMO É VÁLIDO
 

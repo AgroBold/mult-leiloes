@@ -6,11 +6,7 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="banner-heading">
-						<h1 class="banner-title">NOTÍCIAS</h1>
-						<ol class="breadcrumb">
-							<li><a href="../home/">Home</a></li>
-							<li>Notícias</li>
-						</ol>
+						<h1 class="banner-title" style="color: #212121;font-weight: 700;">NOTÍCIAS</h1>
 					</div>
 				</div>
 			</div>

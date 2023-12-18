@@ -177,7 +177,7 @@
 				echo "<button type='button' class='botao_lance' onclick='mensagens_atencao(`<strong>FAÇA LOGIN PARA REALIZAR SEU LANCE!</strong>`, `topCenter`);setTimeout(() => {modal_login()}, 1500)'>DAR LANCE</button>";
 			}
 			else {
-				echo "<button type='submit' class='botao_lance'>DAR LANCE</button>";
+				echo "<button type='button' onclick='dar_lance()' class='botao_lance'>DAR LANCE</button>";
 			}
 		?>
 

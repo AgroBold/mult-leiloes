@@ -21,10 +21,15 @@ $query =
 
 $res = executa_query($query); 
 
+if (isset($res->error_msg)) {
+  retorno_usuario("error", "Erro:$res->error_msg");
+}
+
+
 $dados = $res->dados;
 
 // $total_grupo_totos = 0;
-if ( sizeof($dados) > 0) {
+if ( !empty($dados)) {
 
   echo
   " <div class=\"col-lg-12 col-sm-12 mb-20px mt-20px flex npl npr\">

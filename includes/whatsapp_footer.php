@@ -6,7 +6,7 @@
 				<div id="buttonavatar" class="button avatar"></div>
 			</div>
 			<a id="btclose">
-				<div class="title">Seleção da Marcha</div>
+				<div class="title">Mult Leilões</div>
 				<div class="button whats_close" title="Fechar">x</div>
 			</a>
 		</div>

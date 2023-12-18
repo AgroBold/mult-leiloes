@@ -20,13 +20,14 @@
 					<div class="embed_social">
 						<blockquote class="instagram-media" data-instgrm-permalink="https://www.instagram.com/multleiloes" data-instgrm-version="8">
 							<div style="padding:8px;">
-								<div style="div1_insta">
+								<div>
+								<!-- <div id="div1_insta"> -->
 									<div id="div2_insta"></div>
 								</div>
 									
 									<!-- <p id="instagram-media">
 										<a href="https://www.instagram.com/p/B2SP53ZH8Ba/" target="_blank">
-											Uma publicação compartilhada por Seleção da Marcha (@selecaodamarcha)
+											Uma publicação compartilhada por Mult Leilões (@multleiloes)
 										</a>
 										em
 										<time style="" datetime="2018-05-28T19:52:54+00:00">
@@ -44,11 +45,11 @@
 						<div class="working-hours"> -->
 
 					<!-- 
-					<div class="fb-page" data-href="https://www.facebook.com/Sele%C3%A7%C3%A3o-da-Marcha-108585243850090/" data-tabs="timeline" data-width="" data-height="180" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Sele%C3%A7%C3%A3o-da-Marcha-108585243850090/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Sele%C3%A7%C3%A3o-da-Marcha-108585243850090/">Seleção da Marcha</a></blockquote></div>
+					<div class="fb-page" data-href="https://www.facebook.com/Sele%C3%A7%C3%A3o-da-Marcha-108585243850090/" data-tabs="timeline" data-width="" data-height="180" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Sele%C3%A7%C3%A3o-da-Marcha-108585243850090/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Sele%C3%A7%C3%A3o-da-Marcha-108585243850090/">Mult Leilões</a></blockquote></div>
 					</div>
 					 -->
 
-					<!-- <div class="fb-page" data-href="https://www.facebook.com/Sele%C3%A7%C3%A3o-da-Marcha-108585243850090/" data-tabs="" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Sele%C3%A7%C3%A3o-da-Marcha-108585243850090/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Sele%C3%A7%C3%A3o-da-Marcha-108585243850090/">Seleção da Marcha</a></blockquote></div> -->
+					<!-- <div class="fb-page" data-href="https://www.facebook.com/Sele%C3%A7%C3%A3o-da-Marcha-108585243850090/" data-tabs="" data-width="" data-height="" data-small-header="true" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/Sele%C3%A7%C3%A3o-da-Marcha-108585243850090/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Sele%C3%A7%C3%A3o-da-Marcha-108585243850090/">Mult Leilões</a></blockquote></div> -->
 					
 
 
@@ -82,7 +83,7 @@
 			<div class="col-xs-12 col-sm-6">
 				<div class="copyright-info font-14px pt-md">
 					<span>
-						<span>MultLeilões © 2019<?= date('Y') > 2019 ? '-' . date('Y') : '' ?></span>
+						<span>MultLeilões © 2023<?= date('Y') > 2023 ? '-' . date('Y') : '' ?></span>
 						- Todos direitos reservados
 					</span>
 				</div>
@@ -119,8 +120,12 @@
 	<!-- Isotope -->
 	<script type="text/javascript" src="../assets/js/isotope.js"></script>
 	<script type="text/javascript" src="../assets/js/ini.isotope.js"></script>
+
+
 	<!-- Google Map API Key-->
-	<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script>
+	<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcABaamniA6OL5YvYSpB3pFMNrXwXnLwU&libraries=places"></script> -->
+
+	
 	<!-- Google Map Plugin-->
 	<script type="text/javascript" src="../assets/js/gmap3.js"></script>
 	<!-- Template custom -->

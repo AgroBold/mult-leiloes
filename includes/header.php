@@ -66,7 +66,7 @@
 								<li>
 									<!-- <i class="fa fa-map-marker">&nbsp;</i> -->
 									<i class="fa fa-calendar">&nbsp;</i>
-									<p class="info-text yellow-template">
+									<p class="info-text">
 										<strong>
 											<?php
 											$DIA = date('d');
@@ -197,25 +197,30 @@
 						</div>
 					</div>
 
-					<div class="nav-search" id="btns-acesso">
-				
-							<button class="btn btn-primary mr-md" onclick="modal_login()" style="margin-top: -7px;">
-							<i class=" fa fa-lock"></i>
-								Login
-							</button>
-
-							<button class="btn btn-primary" onclick="modal_cadastro()" style="margin-top: -7px;">
-							<i class="fa fa-user-plus"></i>
-								Cadastro
-							</button>
-
+					<div class="nav-search" id="btns-acesso">							
 						<?php
-						if(esta_logado()) { ?>
-						<a href="//areadocliente.agrobold.com.br/login/?empresa=<?= criptografa($leiloeira) ?>" target="_blank" class="btn btn-primary" style="margin-top: -7px">
-							Área do Cliente
-						</a>
-						<? } ?>
+							if(esta_logado()) { ?>
+								<a href="//areadocliente.agrobold.com.br/login/?empresa=<?= criptografa($leiloeira) ?>" target="_blank" class="btn btn-primary" style="margin-top: -7px">
+									<i class="fa fa-user mr-sm"></i>
+									Área do Cliente
+								</a>
+								<? 
+							}
+							else { ?>
+								<button class="btn btn-primary mr-md" onclick="modal_login()" style="margin-top: -7px;">
+									<i class="fa fa-lock mr-sm"></i>
+									Login
+								</button>
+
+								<button class="btn btn-primary" onclick="modal_cadastro()" style="margin-top: -7px;">
+									<i class="fa fa-user-plus mr-sm"></i>
+									Cadastro
+								</button>
+								<?php
+							}
+						?>
 					</div>
+							
 				</div>
 			</nav>
 

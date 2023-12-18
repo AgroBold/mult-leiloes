@@ -44,7 +44,7 @@ body {
 
 body,
 p {
-  font-family: "Open Sans", sans-serif;
+  font-family: "Montserrat", sans-serif;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased !important;
   line-height: 26px;
@@ -330,7 +330,7 @@ img.pull-right {
 
 .section-sub-title {
   font-weight: 900;
-  font-size: 36px;
+  font-size: 30px;
   line-height: 46px;
   margin: 0 0 60px;
   color: #212121;
@@ -435,8 +435,8 @@ cite {
 
 .btn-primary,
 .btn-dark {
-  border: 0;
-  border-radius: 3px;
+  border: 1px solid #ffb231;
+  border-radius: 5px !important;
   padding: 12px 20px 10px;
   font-weight: 700;
   text-transform: uppercase;
@@ -455,7 +455,7 @@ cite {
 
 .btn-primary {
   background: #ffb231;
-  color: #fff;
+  color: #212121;
 }
 
 .btn-dark {
@@ -467,7 +467,6 @@ cite {
 .btn-white.btn-primary:hover {
   background: #fff;
   color: #ffb231;
-  border: 0.5px solid #ffb231;
 }
 
 .general-btn {
@@ -1560,7 +1559,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .featured-tab .nav-tabs > li > a {
-  font-family: "Roboto Slab", serif;
+  font-family: "Montserrat", serif;
   background: #272d33;
   color: #fff;
   text-shadow: none;
@@ -2134,7 +2133,7 @@ ul.navbar-nav > li.header-get-a-quote:hover > a:after {
 }
 
 .panel-group .panel {
-  border-radius: 0;
+  border-radius: 5px !important;
   margin-bottom: 10px;
 }
 

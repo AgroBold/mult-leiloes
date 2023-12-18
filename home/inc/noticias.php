@@ -2,7 +2,7 @@
 	<div class="container">
 		<div class="row text-center">
 			<h2 class="section-title">Notícias</h2>
-			<h3 class="section-sub-title">Confira as últimas da Seleção da Marcha</h3>
+			<h3 class="section-sub-title">Confira as últimas da Mult Leilões</h3>
 		</div>
 		<div class="row">
 			<div class="col-md-4 col-xs-12">

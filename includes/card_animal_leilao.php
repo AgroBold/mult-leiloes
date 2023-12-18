@@ -113,7 +113,7 @@
          	<div class="row">
 				<div class="col-md-3 mb-50">
 					<div class="ts-team-wrapper">
-							<h4 class="ts-name text-center">01 - Animal teste Seleção da Marcha </h4>
+							<h4 class="ts-name text-center">01 - Animal teste Mult Leilões </h4>
 						<div class="team-img-wrapper">
 							<img alt="" src="<?php echo $app['APP'] ?>assets/images/team/team1.jpg" class="img-responsive">
 						</div>
@@ -126,7 +126,7 @@
 				</div><!-- Col end -->
 				<div class="col-md-3 mb-50">
 					<div class="ts-team-wrapper">
-							<h4 class="ts-name text-center">01 - Animal teste Seleção da Marcha </h4>
+							<h4 class="ts-name text-center">01 - Animal teste Mult Leilões </h4>
 						<div class="team-img-wrapper">
 							<img alt="" src="<?php echo $app['APP'] ?>assets/images/team/team1.jpg" class="img-responsive">
 						</div>
@@ -139,7 +139,7 @@
 				</div><!-- Col end -->
 				<div class="col-md-3 mb-50">
 					<div class="ts-team-wrapper">
-							<h4 class="ts-name text-center">01 - Animal teste Seleção da Marcha </h4>
+							<h4 class="ts-name text-center">01 - Animal teste Mult Leilões </h4>
 						<div class="team-img-wrapper">
 							<img alt="" src="<?php echo $app['APP'] ?>assets/images/team/team1.jpg" class="img-responsive">
 						</div>
@@ -152,7 +152,7 @@
 				</div><!-- Col end -->
 				<div class="col-md-3 mb-50">
 					<div class="ts-team-wrapper">
-							<h4 class="ts-name text-center">01 - Animal teste Seleção da Marcha </h4>
+							<h4 class="ts-name text-center">01 - Animal teste Mult Leilões </h4>
 						<div class="team-img-wrapper">
 							<img alt="" src="<?php echo $app['APP'] ?>assets/images/team/team1.jpg" class="img-responsive">
 						</div>
@@ -173,7 +173,7 @@
 			<div class="container">
 				<div class="row text-center">
 					<h2 class="section-title">Parceiros</h2>
-					<h3 class="section-sub-title">PARCERIA SELEÇÃO DA MARCHA</h3>
+					<h3 class="section-sub-title">PARCERIA Mult Leilões</h3>
 				</div>
 				<!--/ Title row end -->
 				<div class="row">

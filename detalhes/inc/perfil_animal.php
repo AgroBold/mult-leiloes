@@ -176,8 +176,8 @@
 									<h4 class="panel-title">COMPARTILHAR:</h4>
 								</td>
 								<td>
-									<div class="fb-share-button" data-href="http://www.selecaodamarcha.com.br/detalhes/?lote=<?= $_GET['lote'] ?>" data-layout="button_count" data-size="large" data-mobile-iframe="true">
-										<a target="_blank" class="fb-xfbml-parse-ignore" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.selecaodamarcha.com.br%2Fdetalhes%2F%3Flote%3D<?= substr($_GET['lote'], 0, -1); ?>%253D&amp;src=sdkpreparse">
+									<div class="fb-share-button" data-href="http://www.multleiloes.com.br/detalhes/?lote=<?= $_GET['lote'] ?>" data-layout="button_count" data-size="large" data-mobile-iframe="true">
+										<a target="_blank" class="fb-xfbml-parse-ignore" href="https://www.facebook.com/sharer/sharer.php?u=http%3A%2F%2Fwww.multleiloes.com.br%2Fdetalhes%2F%3Flote%3D<?= substr($_GET['lote'], 0, -1); ?>%253D&amp;src=sdkpreparse">
 											Compartilhar
 										</a>
 									</div>

@@ -22,14 +22,12 @@ function criptografa($criptografar) {
   return $criptografar;
 }
 
-// Descriptografa Strings
 function descriptografa($descriptografar) {
   // Aplica o base64_decode 7 vezes
   for($i = 1; $i < 8; $i++) {
     // Criptografa com base64
     $descriptografar = base64_decode($descriptografar);
   }
-
   return $descriptografar;
 }
 
@@ -187,6 +185,10 @@ function valida_email($email)
   }
 
   return false;
+}
+
+function contem_substring($substring, $string) {
+  return strpos($string, $substring) === false ? false : true;
 }
 
 

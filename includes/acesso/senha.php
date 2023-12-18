@@ -21,24 +21,29 @@ $select = executa_query($query_select);
 
 
 // VERIFICA SE A CONSULTA DEU CERTO
-if (!$select) {
-  retorno_usuario('error', "<b>Erro:</b> ");
+if (isset($select->error_msg)) {
+  retorno_usuario('error', "<b>Erro:</b>$select->error_msg");
 }
 
 // VERIFICA A EXISTÊNCIA DO E-MAIL NO BANCO
-if($select->num_rows <= 0 ) {
+if(empty($select->dados) ) {
 	retorno_usuario('warning', "Este e-mail <b>não se encontra</b> cadastrado no sistema. Verifique e tente novamente!");
 }
 
 
-$usuario = $select->data;
+$usuario = $select->dados[0];
+
 
 // Cria Nova Senha de 6 digitos aleatoria
 $randomid = mt_rand(100000, 999999); 
 
 //Atualiza a Senha no Banco de Dados
 $query_update = "UPDATE tab_usuarios SET senha_usuario = '$randomid' WHERE id_usuario = '$usuario->id_usuario'";
-$select = executa_query($query_update, $connect);
+$update = executa_query($query_update, $connect);
+
+if (isset($update->error_msg)) {
+  retorno_usuario('error', "<b>Erro:</b>$update->error_msg");
+}
 
 
 // MENSAGEM DO E-MAIL

@@ -1,10 +1,20 @@
+<div id="banner-area" class="banner-area">
+	<div class="banner-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="banner-heading">
+            <h3 class="banner-title font-22px" style="color: #212121;font-weight: 700;"><?= $TITLE_EVENTS ?></h3>  
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
 <section id="div_encerrados">
   <div class="container">
-
-    <div class="row text-center">
-      <h2 class="section-title">Eventos</h2>
-      <h3 class="section-sub-title  nmb"><?= $TITLE_EVENTS ?></h3>
-    </div>
 
     <?php
       foreach($dados as $dado) {

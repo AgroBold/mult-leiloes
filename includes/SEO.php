@@ -1,9 +1,9 @@
 <!-- BUSCADORES | TODAS AS PÁGINAS -->
-<meta name="description" content="Seleção da Marcha">
-<meta name="keywords" content="Seleção da Marcha, AgroBold, Mangalarga Marchador, leilão, leilões, venda, remate, Marcha Picada, Marcha Batida, Marcha de Centro, Potros, Potras, Éguas, Garanhões, Doadoras, Matrizes, Castrados, Cavalos e éguas para Pista, Cavalgada, Poeirão">
+<meta name="description" content="Mult Leilões">
+<meta name="keywords" content="Mult Leilões, AgroBold, Mangalarga Marchador, leilão, leilões, venda, remate, Marcha Picada, Marcha Batida, Marcha de Centro, Potros, Potras, Éguas, Garanhões, Doadoras, Matrizes, Castrados, Cavalos e éguas para Pista, Cavalgada, Poeirão">
 <meta name="author" content="Agrobold - Soluções Tecnológicas">
-<link rel="canonical" href="https://www.selecaodamarcha.com.br/home/" />
-<link rel="next" href="https://www.selecaodamarcha.com.br/home/" />
+<link rel="canonical" href="https://www.multleiloes.com.br/home/" />
+<link rel="next" href="https://www.multleiloes.com.br/home/" />
 <meta name="robots" content="index, follow"> 
 
 
@@ -28,9 +28,13 @@ if( strpos($_SERVER['REQUEST_URI'], "detalhes/") ) {
       id_lote_leilao = '$id_lote_header'
     )
   ";
+  $query = executa_query($sql);
 
-  $query = mysql_query($sql, $connect) or die(mysql_error());
-  $dados = mysql_fetch_object($query);  		
+  if (isset($query->error_msg)) {
+    retorno_usuario("error", "Erro: $query->error_msg");
+  }
+
+  $dados = $query->dados[0];
 
   // $foto_animal_seo = 
   
@@ -39,10 +43,10 @@ if( strpos($_SERVER['REQUEST_URI'], "detalhes/") ) {
   ?>
 
   <!-- SEO FACEBOOK  -->
-  <meta property="og:title" content="<?php echo "Seleção da Marcha - Lote $dados->num_lote_leilao | $dados->nome_grupo - $dados->nome_animal" ?>" />
+  <meta property="og:title" content="<?php echo "Mult Leilões - Lote $dados->num_lote_leilao | $dados->nome_grupo - $dados->nome_animal" ?>" />
   <meta property="og:type" content="article" />
   <meta property="og:description" content="<?php echo "$dados->titulo - " . trim(substr(strip_tags($dados->comentario_animal), 0, 100)); ?>" />
-  <meta property="og:url" content="https://www.selecaodamarcha.com.br/detalhes/?lote=<?php echo criptografa($id_lote_header); ?>" />
+  <meta property="og:url" content="https://www.multleiloes.com.br/detalhes/?lote=<?php echo criptografa($id_lote_header); ?>" />
   <meta property="og:image" content="<?= $foto_animal_seo ?>" />
 
   <?php
@@ -51,11 +55,11 @@ if( strpos($_SERVER['REQUEST_URI'], "detalhes/") ) {
 else { ?>
   
   <!-- SEO FACEBOOK  -->
-  <meta property="og:title" content="Seleção da Marcha" />
+  <meta property="og:title" content="Mult Leilões" />
   <meta property="og:type" content="website" />
   <meta property="og:description" content="Visite nosso site!" />
-  <meta property="og:url" content="https://www.selecaodamarcha.com.br/home/" />
-  <meta property="og:image" content="https://www.selecaodamarcha.com.br/assets/images/favicon22.png" />
+  <meta property="og:url" content="https://www.multleiloes.com.br/home/" />
+  <meta property="og:image" content="https://www.multleiloes.com.br/assets/images/favicon22.png" />
 
   <?
 }

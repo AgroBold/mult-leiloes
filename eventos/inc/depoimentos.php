@@ -8,7 +8,7 @@
 		<div class="item">
 			<div class="quote-item">
 				<span class="quote-text">
-					O site Seleção da Marcha surge em momento propício,
+					O site Mult Leilões surge em momento propício,
 					em que todos os setores estão sedentos por alguns princípios:
 					conhecimento, comprometimento e ética, portanto é prenúncio de um futuro brilhante.”
 				</span>
@@ -33,7 +33,7 @@
 		<div class="item">
 			<div class="quote-item">
 				<span class="quote-text">
-					O site Seleção da Marcha é assinado por dois dos maiores conhecedores do M.Marchador,
+					O site Mult Leilões é assinado por dois dos maiores conhecedores do M.Marchador,
 					Matheus Rolim e Marcelo Braga. Criadores na essência, honestidade, competência e dos melhores relacionamentos.
 					Sinônimo de satisfação dos clientes e sucesso geral. Quem ganha é o nosso cavalo.
 					Muito boa sorte amigos!”
@@ -75,7 +75,7 @@
 				<span class="quote-text">
 					Excelente opção para o novo criador que procura uma assessoria visando adquirir bons animais.
 					O longo tempo de dedicação a raça Mangalarga Marchador conferem a credibilidade necessária para
-					que a Seleção da Marcha se torne um excelente canal na comercialização dos nossos exemplares.”
+					que a Mult Leilões se torne um excelente canal na comercialização dos nossos exemplares.”
 				</span>
 				<div class="quote-item-footer">
 					<img class="testimonial-thumb" src="../assets/images/depoimentos/leo-barros.jpeg" alt="Foto Léo Barros">

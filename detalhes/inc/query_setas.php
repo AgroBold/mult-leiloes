@@ -22,9 +22,17 @@ $sql_next =
   ORDER BY ordem_animal
   LIMIT 1
 ";
-$query_next = mysql_query($sql_next, $connect) or die(mysql_error());
-$next = mysql_fetch_array($query_next);
-$next_row = mysql_num_rows($query_next);
+
+$query_next = executa_query($sql_next);
+
+if (isset($query_next->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado->error_msg");
+}
+
+$next = $query_next->dados[0];
+$next = (array)$next;
+
+$next_row = count($query_next->dados);
 
 
 
@@ -43,9 +51,16 @@ $sql_prev =
   ORDER BY ordem_animal DESC
   LIMIT 1
 ";
-$query_prev = mysql_query($sql_prev, $connect) or die(mysql_error());
-$prev = mysql_fetch_array($query_prev);
-$prev_row = mysql_num_rows($query_prev);
+$query_prev = executa_query($sql_prev);
+
+if (isset($query_prev->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado->error_msg");
+}
+
+$prev = $query_prev->dados[0];
+$prev = (array)$prev;
+
+$prev_row = count($query_prev->dados);
 
 
 

@@ -1,56 +1,39 @@
 
 // FORM CADASTRO
-$("#form_animal").validate({
-  rules:{
-    nome_contato: {required:true},
-    email_contato: {required:true},
-    celular_contato: {required:true},
-    mensagem_contato: {required:true, minlength:10}
-  },
-  messages: {
-    nome_contato: {required: 'Informe seu nome!'},
-    email_contato: {required: 'Informe seu e-mail!', email:"E-mail inválido!"},
-    celular_contato: {required: 'Informe seu número de celular!'},
-    mensagem_contato: {required: 'Por favor, informe sua mensagem!', minlength: "Mensagem muito curta!"}
-  },
-  submitHandler : function(e) {
+function cadastrar_mensagem() {
 
-    $('#preload').show();
-    $.ajax({
-      url: "./put/contato_animal.php",
-      type: "POST",
-      data: $('#form_animal').serialize(),
-      success: function (response){ 
+  $('#preload').show();
+  $.ajax({
+    url: "./put/contato_animal.php",
+    type: "POST",
+    data: $('#form_animal').serialize(),
+    success: function (response){ 
 
-        $('#preload').fadeOut();
-        console.log(response);
-        mensagens_resposta(response, 'topCenter');
-        var JSONArray = $.parseJSON(response);
+      $('#preload').fadeOut();
+      console.log(response);
+      mensagens_resposta(response, 'topCenter');
+      var JSONArray = $.parseJSON(response);
 
-        if (JSONArray['result'] == 'success') {
+      if (JSONArray['result'] == 'success') {
 
-          document.getElementById("form_animal").reset();
+        document.getElementById("form_animal").reset();
 
-          setTimeout(() => {
-            // window.location='../home';
-            // location.reload();
-          }, 1500);
+        setTimeout(() => {
+          // window.location='../home';
+          // location.reload();
+        }, 1500);
 
-        
-        }
-
-      },
-      error:function () {
-        $('#preload').fadeOut();
-        mensagens_erro('<b>ERRO AO ENVIAR SUA MENSAGEM!</b><br>Atualize a página e tente novamente.');
+      
       }
-    });
-    
-  },
-  errorPlacement : function(error, element) {
-    error.insertAfter(element.parent());
-  }
-});
+
+    },
+    error:function () {
+      $('#preload').fadeOut();
+      mensagens_erro('<b>ERRO AO ENVIAR SUA MENSAGEM!</b><br>Atualize a página e tente novamente.');
+    }
+  });
+
+}
 
 
 
@@ -66,9 +49,7 @@ $("#form_animal").validate({
 
 
 
-$("#form_lance").submit(function (event) {
-
-  event.preventDefault();
+function dar_lance() {
 
   $('#preload').show();
   $.ajax({
@@ -102,7 +83,8 @@ $("#form_lance").submit(function (event) {
       mensagens_erro('Não foi possível dar seu lance no momento!<br>Atualize a página e tente novamente!');
     }
   });
-});
+
+}
 
 
 

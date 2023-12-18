@@ -29,19 +29,19 @@ $query_select =
 ";
 
 
-$select = executa_query($query_select) or die();
+$select = executa_query($query_select);
 
-if ( !$select ) {
-  retorno_usuario('error', "<b>Erro:</b> ");
+if ( isset($select->error_msg) ) {
+  retorno_usuario('error', "<b>Erro:</b> $select->error_msg");
 }
 
 // SE NAO ACHOU NINGUEM...
-if($select->num_rows <= 0 ) {
+if( empty($select->dados) ) {
 	retorno_usuario('warning', "<strong>E-MAIL OU SENHA INCORRETO(S)!</strong><br>Verifique e tente novamente.");
 }
 
 
-$usuario = $select;
+$usuario = $select->dados[0];
 
 
 // SE O USUÁRIO ESTIVER COM A APROVAÇÃO AINDA PENDENTE...
@@ -64,6 +64,10 @@ $id_usuario = (int)$usuario->id_usuario;
 $query = "UPDATE tab_usuarios SET acessos_usuario = '$acessos' WHERE id_usuario = '$id_usuario'";
 $update = executa_query($query);
 
+if ( isset($update->error_msg) ) {
+  retorno_usuario('error', "<b>Erro:</b> $update->error_msg");
+}
+
 
 $IP_USER = $_SERVER["REMOTE_ADDR"];
 
@@ -83,6 +87,10 @@ $query =
 	)
 ";
 $insert = executa_query($query);
+
+if ( isset($insert->error_msg) ) {
+  retorno_usuario('error', "<b>Erro:</b> $insert->error_msg");
+}
 
 // Grava em Sessão os dados do Usuário
 $_SESSION['id_usuario'] = $usuario->id_usuario;

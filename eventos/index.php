@@ -46,8 +46,13 @@ $sql =
 ";
 
 $resultado = executa_query($sql);
+
+if (isset($resultado->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado->error_msg");
+}
+
 $dados = $resultado->dados;
-$num_eventos_atuais = sizeof($dados);
+$num_eventos_atuais = count($dados);
 
 if ( $num_eventos_atuais > 0 ) {
 	$TITLE_EVENTS = $num_eventos_atuais > 1 ? 'EVENTOS EM ANDAMENTO' : 'EVENTO EM ANDAMENTO';
@@ -84,8 +89,13 @@ $sql =
 ";
 
 $resultado = executa_query($sql);
+
+if (isset($resultado->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado->error_msg");
+}
+
 $dados = $resultado->dados;
-$num_proximos_eventos = sizeof($dados);
+$num_proximos_eventos = count($dados);
 
 if ( $num_proximos_eventos ) {
 	$TITLE_EVENTS = $num_proximos_eventos > 1 ? 'PRÓXIMOS EVENTOS' : 'PRÓXIMO EVENTO';
@@ -122,8 +132,13 @@ $sql =
 ";
 
 $resultado = executa_query($sql);
+
+if (isset($resultado->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado->error_msg");
+}
+
 $dados = $resultado->dados;
-$num_eventos_encerrados = sizeof($dados);
+$num_eventos_encerrados = count($dados);
 
 if ( $num_eventos_encerrados > 0 ) {
 	$TITLE_EVENTS = $num_eventos_encerrados > 1 ? 'EVENTOS ENCERRADOS' : 'EVENTO ENCERRADO';

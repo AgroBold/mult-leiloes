@@ -6,6 +6,7 @@ include('inc/breadcumb.php');
 
 if ( $IS_LEILAO_SEM_LANCE || $IS_LEILAO_COM_LANCE ) {
 	$leilao = $lote;
+  $dado = (object)$dados;
 	include('../eventos/titulo_eventos.php');
 	$leilao = '';
 }
@@ -42,8 +43,7 @@ if ( $IS_LEILAO_COM_LANCE || $IS_LEILAO_SEM_LANCE ) {
 
 include('inc/form_animal.php');
 
-include('../includes/parceiros.php');
-include('../includes/footer.php');
+// include('../includes/parceiros.php');
 echo "<script src='put/js.js?v=1.0.1.6'></script>";
 
 
@@ -60,3 +60,5 @@ if ( isset($_GET['div_lote']) ) { ?>
 
   <?
 }
+
+include('../includes/footer.php');

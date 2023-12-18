@@ -42,9 +42,13 @@ $select_lote_vendido =
   )
 ";
 
-$resultado = executa_query($select_lote_vendido) or die();
+$resultado = executa_query($select_lote_vendido);
 
-if ( (int)sizeof($resultado) > 0 ) {
+if (isset($resultado->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado->error_msg");
+}
+
+if ( !empty($resultado->dados) ) {
   retorno_usuario("warning", "<b>LANCE NÃO REALIZADO!</b><br>Este lote já encontra-se vendido!");
 }
 
@@ -65,8 +69,14 @@ $select_lance =
     id_tab_lote_leilao = '$id_lote'
   )
 ";
-$resultado_lance = executa_query($select_lance) or die();
-if ( (int)sizeof($resultado_lance) > 0 ) {
+$resultado_lance = executa_query($select_lance);
+
+if (isset($resultado_lance->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado_lance->error_msg");
+}
+
+
+if ( !empty($resultado_lance->dados) ) {
   retorno_usuario("warning", "Já existe Lance neste Lote com valor menor ou igual a R$ $valor_lance! Selecione um valor diferente.");
 }
 
@@ -89,9 +99,13 @@ $select_prazo_leilao =
   )
 ";
 
-$resultado_prazo_leilao = executa_query($select_prazo_leilao) or die();
+$resultado_prazo_leilao = executa_query($select_prazo_leilao);
 
-if ( (int)sizeof($resultado_prazo_leilao) > 0 ) {
+if (isset($resultado_prazo_leilao->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado_prazo_leilao->error_msg");
+}
+
+if ( !empty($resultado_prazo_leilao->dados) ) {
   retorno_usuario("warning", "<b>Leilão não Iniciado!</b><br>Aguarde o início do Leilão!");
 }
 
@@ -109,9 +123,13 @@ $select_prazo_leilao =
   )
 ";
 
-$resultado_prazo_leilao = executa_query($select_prazo_leilao) or die();
+$resultado_prazo_leilao = executa_query($select_prazo_leilao);
 
-if ( (int)sizeof($resultado_prazo_leilao) > 0 ) {
+if (isset($resultado_prazo_leilao->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado_prazo_leilao->error_msg");
+}
+
+if ( !empty($resultado_prazo_leilao->dados) ) {
   retorno_usuario("warning", "<b>Leilão Finalizado!</b><br>Você não pode mais dar Lances.");
 }
 
@@ -161,11 +179,13 @@ $insert_lance =
 ";
 
 // OBTEM O RESULTADO DO INSERT
-$resultado_lance_usuario = executa_query($insert_lance) or die();
+$resultado_lance_usuario = executa_query($insert_lance);
 
-if (!$resultado_lance_usuario) {
-  retorno_usuario("error", "Não foi Possível cadastrar seu lance no momento!");
+if (isset($resultado_lance_usuario->error_msg)) {
+  retorno_usuario("error", "Não foi Possível cadastrar seu lance no momento!: $resultado_lance_usuario->error_msg");
 }
+
+
 
 
 

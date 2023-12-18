@@ -12,8 +12,15 @@ $query_visitas_lote =
     AND id_haras = '$leiloeira'
   )
 ";
-    
-$insert_visitas_lote = mysql_query($query_visitas_lote, $connect) or die (mysql_error($connect));
+$insert_visitas_lote = executa_query($query_visitas_lote);
+
+if (isset($insert_visitas_lote->error_msg)) {
+  retorno_usuario("error", "Erro: $insert_visitas_lote->error_msg");
+}
+
+
+
+
 
 // OBTENDO OS DADOS DO LOTE / LEILÃO / ANIMAL
 $sql_dados =
@@ -87,11 +94,14 @@ $sql_dados =
   )
 ";
 
-$query_dados1 = mysql_query($sql_dados, $connect) or die (mysql_error());
-$query_dados2 = mysql_query($sql_dados, $connect) or die (mysql_error());
+$query_dados1 = executa_query($sql_dados);
 
-$dados = mysql_fetch_array($query_dados1);
-$lote = mysql_fetch_object($query_dados2);
+if (isset($query_dados1->error_msg)) {
+  retorno_usuario("error", "Erro: $query_dados1->error_msg");
+}
+
+$dados = (array)$query_dados1->dados[0];
+$lote = $query_dados1->dados[0];
 
 $num_lote_atual = (int)$dados['ordem_animal'];
 $num_lote_leilao = trim($dados['num_lote_leilao']);

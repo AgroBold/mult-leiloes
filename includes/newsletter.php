@@ -18,7 +18,7 @@
           <?php
             /**
              * Newsletter comentada e substituída pelo QR CODE que redireciona para o grupo do
-             * whatsapp da seleção da marcha devido ao ticket #401
+             * whatsapp da Mult Leilões devido ao ticket #401
             */
           ?>
 
@@ -40,7 +40,7 @@
 
           <!-- TICKET 401 -->
           <a href="https://chat.whatsapp.com/HIEuJ9vPq9x1jHg7KYlPWQ" target="_blank" rel="noopener noreferrer">
-            <img src="https://www.selecaodamarcha.com.br/assets/images/qr_cod_grupo.jpg" alt="QR Code Grupo Whatsapp">
+            <img src="https://www.multleiloes.com.br/assets/images/qr_cod_grupo.jpg" alt="QR Code Grupo Whatsapp">
           </a>
 
           <div class="newsletter-introtext">

@@ -41,7 +41,7 @@
 			</div>
 				
 			<div class="clearfix">
-				<button class="btn btn-primary pull-right nmt" type="submit">ENVIAR MENSAGEM</button>
+				<button class="btn btn-primary pull-right nmt" type="button" onclick="cadastrar_mensagem()">ENVIAR MENSAGEM</button>
 			</div>
 
 		</form>

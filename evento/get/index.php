@@ -3,7 +3,7 @@
 include("../../config/config.php");
 
 // $_POST
-$id_categoria = (int)$_POST['id_categoria'] > 0 ? (int)mysql_real_escape_string($_POST['id_categoria'], $connect) : '%';
+$id_categoria = (int)$_POST['id_categoria'] > 0 ? (int)$_POST['id_categoria'] : '%';
 $id_leilao = (int)trim($_POST['id_leilao']);
 
 $sql_lotes =
@@ -68,11 +68,19 @@ $sql_lotes =
   ORDER BY ordem_animal
 ";
 
-$resultado = mysql_query($sql_lotes, $connect) or die(mysql_error());
-$num_lotes = mysql_num_rows($resultado);
+
+$resultado = executa_query($sql_lotes);
+
+if (isset($resultado->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado->error_msg");
+}
+
+$num_lotes = count($resultado->dados);
+
 
 if ($num_lotes > 0) {
-  while ($animal = mysql_fetch_object($resultado)) {
+  
+  foreach ($resultado->dados as $animal) {
     include('../../includes/card_animal.php');
   }
   exit;

@@ -2,37 +2,28 @@
   <a href="../detalhes/?lote=<?= criptografa($animal->id_lote_leilao) ?>&div_lote">
     <!-- <div class="ts-team-wrapper pa-md" style="border: 1px solid #600300"> -->
     <div class="ts-team-wrapper pa-md card-animal">
-
-      <h4 class="ts-name text-center title-nome-animal">
-        <span>
-          <?php
-          $NUM_LOTE_LEILAO = !empty(trim($animal->num_lote_leilao)) ? $animal->num_lote_leilao : '00';
-          echo "$NUM_LOTE_LEILAO. $animal->nome_animal";
-          ?>
-        </span>
-      </h4>
-
+      
       <?php
-      $fotos_existentes['foto00'] = trim($animal->foto_lote_leilao); // FOTO DO LOTE
-      $fotos_existentes['foto01'] = trim($animal->foto01_animal);
-      $fotos_existentes['foto02'] = trim($animal->foto02_animal);
-      $fotos_existentes['foto03'] = trim($animal->foto03_animal);
-      $fotos_existentes['foto04'] = trim($animal->foto04_animal);
-      $fotos_existentes['foto05'] = trim($animal->foto05_animal);
-      $fotos_existentes['foto06'] = trim($animal->foto06_animal);
+        $fotos_existentes['foto00'] = trim($animal->foto_lote_leilao); // FOTO DO LOTE
+        $fotos_existentes['foto01'] = trim($animal->foto01_animal);
+        $fotos_existentes['foto02'] = trim($animal->foto02_animal);
+        $fotos_existentes['foto03'] = trim($animal->foto03_animal);
+        $fotos_existentes['foto04'] = trim($animal->foto04_animal);
+        $fotos_existentes['foto05'] = trim($animal->foto05_animal);
+        $fotos_existentes['foto06'] = trim($animal->foto06_animal);
 
-      $foto_animal = $img_sem_img;
-      $border_img = "border-ccc";
+        $foto_animal = $img_sem_img;
+        $border_img = "border-ccc";
 
-      for ($i = 0; $i <= 6; $i++) {
-        $foto_atual = $fotos_existentes["foto0$i"];
-        if (!empty($foto_atual)) {
-          $foto_animal = $url_docs_sistema . $foto_atual;
+        for ($i = 0; $i <= 6; $i++) {
+          $foto_atual = $fotos_existentes["foto0$i"];
+          if (!empty($foto_atual)) {
+            $foto_animal = $url_docs_sistema . $foto_atual;
 
-          $border_img = '';
-          break;
+            $border_img = '';
+            break;
+          }
         }
-      }
       ?>
 
       <div class="team-img-wrapper">
@@ -41,35 +32,43 @@
         <img src="<?= $foto_animal ?>" class="img-responsive <?= $border_img ?> width-100" alt="Foto do Animal">
 
 
-
         <?php
-        $videos_existentes['video00'] = trim($animal->url_video_lote_leilao); // VÍDEO DO LOTE
-        $videos_existentes['video01'] = trim($animal->video_animal_01);
-        $videos_existentes['video02'] = trim($animal->video_animal_02);
-        $videos_existentes['video03'] = trim($animal->video_animal_03);
+          $videos_existentes['video00'] = trim($animal->url_video_lote_leilao); // VÍDEO DO LOTE
+          $videos_existentes['video01'] = trim($animal->video_animal_01);
+          $videos_existentes['video02'] = trim($animal->video_animal_02);
+          $videos_existentes['video03'] = trim($animal->video_animal_03);
 
-        for ($j = 0; $j <= 4; $j++) {
+          for ($j = 0; $j <= 4; $j++) {
 
-          $video_animal = trim($videos_existentes["video0$j"]);
-          if (!empty($video_animal)) {
-            $descricao_video = "$NUM_LOTE_LEILAO. $animal->nome_animal";
-        ?>
+            $video_animal = trim($videos_existentes["video0$j"]);
+            if (!empty($video_animal)) {
+              $descricao_video = "$NUM_LOTE_LEILAO. $animal->nome_animal";
+          ?>
 
-            <a class="btn-xs btn-video" href="javascript:void(0)" onclick="modal_video_lote('<?= $video_animal ?>', '<?= $descricao_video ?>', 'normal')">
-              <img src="../assets/images/youtube_play.png" width="30px" height="30px"></img>
-            </a>
-            
-            <!-- Botão abrir imagem do lote -->
-            <!-- <a class="btn-xs btn-video-max" href="javascript:void(0)" onclick="modal_video_lote('<?= $video_animal ?>', '<?= $descricao_video ?>', 'full')">
-              <img src="../assets/images/youtube_maximizar.png" width="30px" height="28px"></img>
-            </a> -->
+              <a class="btn-xs btn-video" href="javascript:void(0)" onclick="modal_video_lote('<?= $video_animal ?>', '<?= $descricao_video ?>', 'normal')">
+                <img src="../assets/images/youtube_play.png" width="30px" height="30px"></img>
+              </a>
+              
+              <!-- Botão abrir imagem do lote -->
+              <!-- <a class="btn-xs btn-video-max" href="javascript:void(0)" onclick="modal_video_lote('<?= $video_animal ?>', '<?= $descricao_video ?>', 'full')">
+                <img src="../assets/images/youtube_maximizar.png" width="30px" height="28px"></img>
+              </a> -->
 
-        <?
-            break;
-          } // IF
-        } // FOR
+          <?
+              break;
+            } // IF
+          } // FOR
         ?>
       </div>
+      
+      <h4 class="ts-name text-center title-nome-animal">
+        <span>
+          <?php
+          $NUM_LOTE_LEILAO = !empty(trim($animal->num_lote_leilao)) ? $animal->num_lote_leilao : '00';
+          echo "$NUM_LOTE_LEILAO. $animal->nome_animal";
+          ?>
+        </span>
+      </h4>
 
       <div class="ts-team-content-classic pa-xs font-13px text-weight-600">
         <strong class="red-template">Pai:</strong> <span class="grey"><?= !empty(trim($animal->p00)) ? mb_strtoupper($animal->p00, 'UTF-8') : "<span class='text-muted2'>NÃO INFORMADO</span>"; ?></span>

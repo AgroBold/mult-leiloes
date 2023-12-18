@@ -1,12 +1,29 @@
 <?php include('../includes/header.php'); ?>
 
+
+<div id="banner-area" class="banner-area">
+	<div class="banner-text">
+		<div class="container">
+			<div class="row">
+				<div class="col-xs-12">
+					<div class="banner-heading">
+            <h3 class="banner-title" style="color: #212121;font-weight: 700;">VENDA DIRETA</h3>  
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+
+
 <section>
   <div class="container">
 
-    <div class="row text-center mt-30px">
+    <!-- <div class="row text-center mt-30px">
       <h2 class="section-title">Vendas</h2>
       <h3 class="section-sub-title margem_titulo">ANIMAIS DE VENDA DIRETA</h3>  
-    </div>
+    </div> -->
 
 
     <?php include('inc/filtro_vendas.php'); ?>
@@ -27,7 +44,6 @@
   </div>
 </section>
 
-<?php include('../includes/footer.php'); ?>
 
 <script>
 
@@ -69,3 +85,6 @@
   });
 
 </script>
+
+
+<?php include('../includes/footer.php'); ?>

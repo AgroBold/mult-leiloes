@@ -46,13 +46,16 @@ $sql_lotes =
 
 $resultado = executa_query($sql_lotes);
 
-print_obj($resultado);
-// $dados = $resultado->dados;
-// $num_lotes = sizeof($dados);
+if (isset($resultado->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado->error_msg");
+}
+
+$dados = $resultado->dados;
+$num_lotes = count($dados);
 
 
 if ($num_lotes > 0) {
-  foreach($dados as $dado) {
+  foreach($dados as $animal) {
     include('../../includes/card_animal.php');
   }
   exit;

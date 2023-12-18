@@ -34,11 +34,11 @@ $sql =
 
 $resultado = executa_query($sql);
 
-$dados = $resultado->dados;
-
-if ( sizeof($dados) <= 0 ) {
-  
+if (isset($resultado->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado->error_msg");
 }
+
+$dado = $resultado->dados[0];
 
 ?>
 
@@ -63,7 +63,6 @@ if ( sizeof($dados) <= 0 ) {
   </div>
 </section>
 
-<?php include('../includes/footer.php'); ?>
 
 <script>
 
@@ -106,3 +105,6 @@ if ( sizeof($dados) <= 0 ) {
   });
 
 </script>
+
+
+<?php include('../includes/footer.php'); ?>

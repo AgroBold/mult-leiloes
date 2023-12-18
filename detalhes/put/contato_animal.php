@@ -14,7 +14,7 @@ if( empty($nome_animal) ) {
   retorno_usuario("error", "Lote e/ou Leilão inexistentes. Atualize a Página e tente novamente.");
 }
 
-if( empty($email) || empty($nome) || empty($celular) ) {
+if( empty($email) || empty($nome) || empty($celular) || empty($mensagem) ) {
   retorno_usuario("error", "Por favor, preencha todos os campos com '*'!");    
 }
 

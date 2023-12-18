@@ -14,8 +14,16 @@ $select_ultimos_lances =
 ";
 
 
-$resultado_ultimos_lances = mysql_query($select_ultimos_lances, $connect) or die(mysql_error());
-$num_lances = (int)mysql_num_rows($resultado_ultimos_lances);
+
+
+$resultado_ultimos_lances = executa_query($select_ultimos_lances);
+
+if (isset($resultado_ultimos_lances->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado_ultimos_lances->error_msg");
+}
+
+$num_lances = count($resultado_ultimos_lances->dados);
+
 
 // SE FOR ANIMAL DE LEILÃO, EXIBE O HISTÓRICO DE LANCES DO MESMO
 if( $num_lances > 0) { ?>
@@ -33,7 +41,7 @@ if( $num_lances > 0) { ?>
 
             <?php
               $contador = $num_lances;                
-              while($lance = mysql_fetch_object($resultado_ultimos_lances)) { ?>
+              foreach($resultado_ultimos_lances->dados as $lance) { ?>
 
                 <tr>
                   <td>
