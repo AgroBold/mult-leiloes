@@ -1,0 +1,10 @@
+[19-Jan-2022 12:33:49 America/Sao_Paulo] PHP Warning:  mysql_query(): MySQL server has gone away in /home/agroboldcom/public_html/selecaodamarcha.com.br/config/funcoes.php on line 404
+[19-Jan-2022 12:33:49 America/Sao_Paulo] PHP Warning:  mysql_query(): Error reading result set's header in /home/agroboldcom/public_html/selecaodamarcha.com.br/config/funcoes.php on line 404
+[19-Jan-2022 12:33:49 America/Sao_Paulo] PHP Warning:  mysql_query(): MySQL server has gone away in /home/agroboldcom/public_html/selecaodamarcha.com.br/config/funcoes.php on line 404
+[19-Jan-2022 12:33:49 America/Sao_Paulo] PHP Warning:  mysql_query(): Error reading result set's header in /home/agroboldcom/public_html/selecaodamarcha.com.br/config/funcoes.php on line 404
+[19-Jan-2022 12:33:49 America/Sao_Paulo] PHP Warning:  mysql_query(): MySQL server has gone away in /home/agroboldcom/public_html/selecaodamarcha.com.br/config/funcoes.php on line 404
+[19-Jan-2022 12:33:49 America/Sao_Paulo] PHP Warning:  mysql_query(): Error reading result set's header in /home/agroboldcom/public_html/selecaodamarcha.com.br/config/funcoes.php on line 404
+[19-Jan-2022 12:33:49 America/Sao_Paulo] PHP Warning:  mysql_query(): MySQL server has gone away in /home/agroboldcom/public_html/selecaodamarcha.com.br/config/funcoes.php on line 404
+[19-Jan-2022 12:33:49 America/Sao_Paulo] PHP Warning:  mysql_query(): Error reading result set's header in /home/agroboldcom/public_html/selecaodamarcha.com.br/config/funcoes.php on line 404
+[02-Nov-2022 11:08:01 America/Sao_Paulo] PHP Warning:  mysql_connect(): Access denied for user 'agrobold_user_negocios'@'vps-3792208.priodata.com.br' (using password: YES) in /home/agroboldcom/public_html/cdn/php/includes/connect_mysql.php on line 7
+[02-Nov-2022 11:09:26 America/Sao_Paulo] PHP Warning:  mysql_connect(): Access denied for user 'agrobold_user_negocios'@'vps-3792208.priodata.com.br' (using password: YES) in /home/agroboldcom/public_html/cdn/php/includes/connect_mysql.php on line 7

@@ -1,0 +1,378 @@
+.chat_window {
+  display: none;
+  position: fixed;
+  width: calc(100% - 20px);
+  max-width: 400px;
+  height: 405px;
+  /*500px*/
+  border-radius: 10px;
+  background-color: #fff;
+  right: -180px;
+  bottom: -120px;
+  /* 50px */
+  transform: translateX(-50%) translateY(-50%);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  background-color: #f8f8f8;
+  overflow: hidden;
+  z-index: 50;
+}
+
+.whats_top_menu {
+  background-color: #056056;
+  width: 100%;
+  padding: 20px 0 15px;
+  box-shadow: 0 1px 30px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.whats_top_menu .buttons {
+  margin: 3px 0 0 20px;
+  position: absolute;
+}
+
+.whats_top_menu .buttons .button {
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+}
+
+.whats_top_menu .buttons .button.whats_close {
+  background-color: white;
+}
+
+.whats_top_menu .buttons .button.minimize {
+  background-color: #fdbf68;
+}
+
+.whats_top_menu .buttons .button.maximize {
+  background-color: #a3d063;
+}
+
+.whats_top_menu .title {
+  text-align: left;
+  color: white;
+  font-size: 18px;
+  /* text-indent: 70px; */
+  padding-left: 62px;
+  font-weight: bold;
+}
+
+.whats_messages {
+  position: relative;
+  list-style: none;
+  padding: 10px 0px 0 5px;
+  margin: 0;
+  height: 255px;
+  /*347px;*/
+  overflow: hidden;
+  background: url('https://www.confiancamarchador.com.br/assets/imagens/whatsapp_modulo_bg.jpg');
+}
+
+.whats_messages .message {
+  clear: both;
+  overflow: hidden;
+  margin-bottom: 7px;
+  transition: all 0.5s linear;
+  opacity: 0;
+}
+
+.whats_messages .message.left .avatar {
+  background-color: #f5886e;
+  float: left;
+}
+
+.whats_messages .message.left .text_wrapper {
+  /* background-color: #ffe6cb;*/
+  background: white;
+  box-shadow: 1px 1px 2px #CCC;
+  margin-left: 20px;
+  box-sizing: border-box;
+}
+
+.whats_messages .message.left .text_wrapper::after, .whats_messages .message.left .text_wrapper::before {
+  right: 95%;
+  border-right-color: white;
+}
+
+.whats_messages .message.left .text {
+  color: black;
+}
+
+.whats_messages .message.right .avatar {
+  background-color: #fdbf68;
+  float: right;
+}
+
+.whats_messages .message.right .text_wrapper {
+  background-color: #c7eafc;
+  margin-right: 20px;
+  float: right;
+}
+
+.whats_messages .message.right .text_wrapper::after, .whats_messages .message.right .text_wrapper::before {
+  /*left: 100%;*/
+  right: -15px;
+  border-width: 30px 30px 0 0;
+  border-color: #c7eafc transparent transparent transparent;
+}
+
+.whats_messages .message.right .text {
+  color: #45829b;
+}
+
+.whats_messages .message.appeared {
+  opacity: 1;
+}
+
+.whats_messages .message .avatar {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.whats_messages .message .text_wrapper {
+  display: inline-block;
+  padding: 6px 16px 5px 15px;
+  /*20px padding: 10px 20px 4px 16px;  */
+  border-radius: 16px;
+  /*6px*/
+  width: calc(100% - 70px);
+  min-width: 100px;
+  position: relative;
+}
+
+.whats_messages .message .text_wrapper::after, .whats_messages .message .text_wrapper:before {
+  top: 0;
+  margin-left: 10px;
+  border: solid transparent;
+  content: " ";
+  height: 0;
+  width: 0;
+  position: absolute;
+  pointer-events: none;
+}
+
+.whats_messages .message .text_wrapper::after {
+  border-width: 0 30px 30px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.whats_messages .message .text_wrapper::before {
+  border-width: 0 30px 30px 0;
+  border-color: transparent #ffffff transparent transparent;
+}
+
+.whats_messages .message .text_wrapper .text {
+  font-size: 14px;
+  font-weight: 300;
+  text-align: left;
+}
+
+.whats_bottom_wrapper {
+  position: relative;
+  width: 100%;
+  background-color: #F5F1EE;
+  padding: 13px 11px;
+  position: absolute;
+  bottom: 0;
+  box-sizing: border-box;
+}
+
+.whats_bottom_wrapper .message_input_wrapper {
+  display: inline-block;
+  height: 50px;
+  border-radius: 25px;
+  border: 1px solid #bcbdc0;
+  /*width: calc(100% - 160px);*/
+  width: calc(56% - 56px);
+  position: relative;
+  padding: 0 20px;
+  box-shadow: 1px 1px 2px #CCC;
+  box-sizing: border-box;
+  text-align: left;
+}
+
+.whats_bottom_wrapper .message_input_wrapper .message_input {
+  border: none;
+  height: 100%;
+  box-sizing: border-box;
+  width: calc(100% - 40px);
+  position: absolute;
+  outline-width: 0;
+  color: #000;
+  background: #F5F1EE;
+}
+
+.whats_bottom_wrapper .send_message {
+  width: 50px;
+  /*width: 140px;*/
+  height: 50px;
+  display: inline-block;
+  border-radius: 50%;
+  /*50px*/
+  cursor: pointer;
+  transition: all 0.2s linear;
+  float: right;
+}
+
+.whats_bottom_wrapper .send_message .text {
+  font-size: 18px;
+  font-weight: 300;
+  display: inline-block;
+  line-height: 48px;
+}
+
+.whats_message_template {
+  display: none;
+}
+
+.block {
+  display: block
+}
+
+.whats_close {
+  float: right;
+  color: white;
+  font-size: 26px;
+  margin: -35px 20px 0 0;
+  cursor: pointer;
+  line-height: 1;
+  padding: 0;
+  font-family: Arial;
+  text-transform: lowercase;
+  font-weight: normal;
+}
+
+.whats_top_menu .buttons .button.avatar {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 10px;
+  position: relative;
+  margin-top: -10px;
+  background: url('https://www.confiancamarchador.com.br/assets/imagens/favicon/favicon-32x32.png');
+  background-size: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  
+  padding: inherit;
+  border: none;
+}
+
+.time {
+  float: right;
+  margin: 0 -10px 0 0;
+  padding: 0;
+  font-size: 12px;
+  position: relative;
+  color: #929292;
+}
+
+@media only screen and (max-width: 719px) {
+  /* .chat_window{ left: 180px; } */
+  .chat_window {
+    left: 10px;
+    bottom: 30px;
+    transform: none;
+  }
+  .whats_top_menu .title {
+    font-size: 16px;
+  }
+  .whats_top_menu .buttons {
+    margin: 0px 0 0 20px;
+  }
+  .whats_close {
+    margin: -25px 20px 0 0 !important;
+    color: #FFF !important;
+    padding: 0 !important;
+  }
+}
+
+/*
+.whats_conteudo {
+	margin: 0 auto;
+	background:#dedede;
+	width:1280px;
+	height:960px;
+}
+*/
+.wpp {
+    background-color: #fff !important;
+    color: #288c1a!important;
+    padding: 14px;
+    border-radius: 7px;
+    border: 1.5px solid #288c1a !important;
+}
+
+.float-whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 15px;
+  right: 25px;
+  background-color: #25d366;
+  color: #FFF;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 30px;
+  z-index: 40;
+  cursor: pointer;
+}
+
+.my-icon-whatsapp {
+  margin-top: 15px;
+}
+
+.pulse {
+  font-family: Arial;
+  line-height: 1.5;
+  font-size: 12px;
+  font-weight: bold;
+  float: left;
+  width: 18px;
+  height: 18px;
+  border-radius: 50%;
+  background: #d2ae6d;
+  cursor: pointer;
+  box-shadow: 0 0 0 #d2ae6d;
+  ;
+  animation: pulse 2s infinite;
+  z-index: 9999;
+  position: absolute;
+}
+
+.pulse:hover {
+  animation: none;
+}
+
+@-webkit-keyframes pulse {
+  0% {
+    -webkit-box-shadow: 0 0 0 0 rgba(233, 179, 30, 0.555);
+  }
+  70% {
+    -webkit-box-shadow: 0 0 0 10px rgba(233, 30, 99, 0);
+  }
+  100% {
+    -webkit-box-shadow: 0 0 0 0 rgba(233, 30, 99, 0);
+  }
+}
+
+@keyframes pulse {
+  0% {
+    -moz-box-shadow: 0 0 0 0 rgba(233, 179, 30, 0.555);
+    box-shadow: 0 0 0 0 rgba(233, 179, 30, 0.555);
+  }
+  70% {
+    -moz-box-shadow: 0 0 0 10px rgba(233, 30, 99, 0);
+    box-shadow: 0 0 0 10px rgba(233, 30, 99, 0);
+  }
+  100% {
+    moz-box-shadow: 0 0 0 0 rgba(233, 30, 99, 0);
+    box-shadow: 0 0 0 0 rgba(233, 30, 99, 0);
+  }
+}

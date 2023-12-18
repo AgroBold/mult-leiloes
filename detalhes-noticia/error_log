@@ -1,0 +1,131 @@
+[07-Dec-2023 21:17:28 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[07-Dec-2023 18:17:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php:8
+Stack trace:
+#0 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php on line 8
+[07-Dec-2023 21:19:59 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[07-Dec-2023 18:19:59 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(189): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(91): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[07-Dec-2023 21:20:05 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[07-Dec-2023 18:20:05 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(189): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(91): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[07-Dec-2023 21:20:23 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[07-Dec-2023 18:20:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(189): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(91): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[07-Dec-2023 21:21:09 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[07-Dec-2023 18:21:09 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(189): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(91): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[07-Dec-2023 21:21:18 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[07-Dec-2023 18:21:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(189): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(91): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[07-Dec-2023 21:21:27 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[07-Dec-2023 18:21:27 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(189): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(89): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[07-Dec-2023 21:21:34 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[07-Dec-2023 18:21:34 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(189): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(89): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[14-Dec-2023 19:11:07 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[14-Dec-2023 16:11:07 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(179): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(89): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[14-Dec-2023 19:11:15 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[14-Dec-2023 16:11:15 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(179): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(89): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[14-Dec-2023 19:11:18 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[14-Dec-2023 16:11:18 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(179): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(89): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[14-Dec-2023 19:11:20 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[14-Dec-2023 16:11:20 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(179): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(89): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[14-Dec-2023 19:11:23 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[14-Dec-2023 16:11:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(179): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(89): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[14-Dec-2023 19:11:26 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[14-Dec-2023 16:11:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(179): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(89): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[14-Dec-2023 19:11:28 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[14-Dec-2023 16:11:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_query() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:10
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(179): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(89): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10

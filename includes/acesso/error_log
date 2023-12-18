@@ -1,0 +1,186 @@
+[15-Jul-2020 04:20:33 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `' @ error/constitute.c/ReadImage/564' in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php:16
+Stack trace:
+#0 /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php(16): Imagick->__construct('/tmp/phpRxdI0s')
+#1 /home/agroboldcom/public_html/selecaodamarcha.com.br/includes/acesso/cadastro.php(327): include('/home/agroboldc...')
+#2 {main}
+  thrown in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[15-Jul-2020 04:20:42 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `' @ error/constitute.c/ReadImage/564' in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php:16
+Stack trace:
+#0 /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php(16): Imagick->__construct('/tmp/phpaK3XJn')
+#1 /home/agroboldcom/public_html/selecaodamarcha.com.br/includes/acesso/cadastro.php(327): include('/home/agroboldc...')
+#2 {main}
+  thrown in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[15-Jul-2020 04:20:59 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `' @ error/constitute.c/ReadImage/564' in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php:16
+Stack trace:
+#0 /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php(16): Imagick->__construct('/tmp/phpT3HnYv')
+#1 /home/agroboldcom/public_html/selecaodamarcha.com.br/includes/acesso/cadastro.php(327): include('/home/agroboldc...')
+#2 {main}
+  thrown in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[20-Jul-2020 19:29:32 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `' @ error/constitute.c/ReadImage/564' in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php:16
+Stack trace:
+#0 /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php(16): Imagick->__construct('/tmp/phprC09Ka')
+#1 /home/agroboldcom/public_html/selecaodamarcha.com.br/includes/acesso/cadastro.php(327): include('/home/agroboldc...')
+#2 {main}
+  thrown in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[20-Jul-2020 19:29:59 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `' @ error/constitute.c/ReadImage/564' in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php:16
+Stack trace:
+#0 /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php(16): Imagick->__construct('/tmp/php7TGzHL')
+#1 /home/agroboldcom/public_html/selecaodamarcha.com.br/includes/acesso/cadastro.php(327): include('/home/agroboldc...')
+#2 {main}
+  thrown in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[22-Sep-2020 23:35:28 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `' @ error/constitute.c/ReadImage/564' in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php:16
+Stack trace:
+#0 /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php(16): Imagick->__construct('/tmp/phpRXzpVr')
+#1 /home/agroboldcom/public_html/selecaodamarcha.com.br/includes/acesso/cadastro.php(327): include('/home/agroboldc...')
+#2 {main}
+  thrown in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[22-Sep-2020 23:59:38 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `' @ error/constitute.c/ReadImage/564' in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php:16
+Stack trace:
+#0 /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php(16): Imagick->__construct('/tmp/php5eGexd')
+#1 /home/agroboldcom/public_html/selecaodamarcha.com.br/includes/acesso/cadastro.php(327): include('/home/agroboldc...')
+#2 {main}
+  thrown in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[25-Sep-2020 13:51:20 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `[ghostscript library 9,25] -sstdout=%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 '-sDEVICE=pamcmyk32' -dTextAlphaBits=4 -dGraphicsAlphaBits=4 '-r72x72' -dUseCIEColor  '-sOutputFile=/tmp/magick-21569HJO_rndtNcnv%d' '-f/tmp/magick-21569vUZXR3iQ3mNG' '-f/tmp/magick-21569ec1_7EX6UDdS'':    **** This file requires a password for access.
+Error: /invalidfileaccess in pdf_process_Encrypt
+Operand stack:
+
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   runpdf   --nostringval--   2   %stopped_push   --nostringval--   runpdf   runpdf   false   1   %stopped_push   2047   1   3   %oparray_pop   2046   1   3   %oparray_pop   2026   1   3   %oparray_pop   2027   1   3   %oparray_pop   runpdf   runpdf   runpdf   runpdf   false   1   %stopped_push
+Dictionary stack:
+   --dict:957/1684(ro)(G)--   --dict:1/20(G)--   --dict:82/200(L)--   --dict:82/200(L)--   --dict:133/256(r in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[25-Sep-2020 13:53:20 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `[ghostscript library 9,25] -sstdout=%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 '-sDEVICE=pamcmyk32' -dTextAlphaBits=4 -dGraphicsAlphaBits=4 '-r72x72' -dUseCIEColor  '-sOutputFile=/tmp/magick-2185447pG7yjZQmBb%d' '-f/tmp/magick-21854JoHWXKjBeVyI' '-f/tmp/magick-2185422jH-GHifCwf'':    **** This file requires a password for access.
+Error: /invalidfileaccess in pdf_process_Encrypt
+Operand stack:
+
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   runpdf   --nostringval--   2   %stopped_push   --nostringval--   runpdf   runpdf   false   1   %stopped_push   2047   1   3   %oparray_pop   2046   1   3   %oparray_pop   2026   1   3   %oparray_pop   2027   1   3   %oparray_pop   runpdf   runpdf   runpdf   runpdf   false   1   %stopped_push
+Dictionary stack:
+   --dict:957/1684(ro)(G)--   --dict:1/20(G)--   --dict:82/200(L)--   --dict:82/200(L)--   --dict:133/256(r in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[25-Sep-2020 13:59:34 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `[ghostscript library 9,25] -sstdout=%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 '-sDEVICE=pamcmyk32' -dTextAlphaBits=4 -dGraphicsAlphaBits=4 '-r72x72' -dUseCIEColor  '-sOutputFile=/tmp/magick-230082MQfhbQzg2YE%d' '-f/tmp/magick-23008xt0qKLiz62hH' '-f/tmp/magick-23008SUEt40AIiaBJ'':    **** This file requires a password for access.
+Error: /invalidfileaccess in pdf_process_Encrypt
+Operand stack:
+
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   runpdf   --nostringval--   2   %stopped_push   --nostringval--   runpdf   runpdf   false   1   %stopped_push   2047   1   3   %oparray_pop   2046   1   3   %oparray_pop   2026   1   3   %oparray_pop   2027   1   3   %oparray_pop   runpdf   runpdf   runpdf   runpdf   false   1   %stopped_push
+Dictionary stack:
+   --dict:957/1684(ro)(G)--   --dict:1/20(G)--   --dict:82/200(L)--   --dict:82/200(L)--   --dict:133/256(r in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[28-Sep-2020 13:36:29 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `[ghostscript library 9,25] -sstdout=%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 '-sDEVICE=pamcmyk32' -dTextAlphaBits=4 -dGraphicsAlphaBits=4 '-r72x72' -dUseCIEColor  '-sOutputFile=/tmp/magick-31338DzaYZUeMOFXi%d' '-f/tmp/magick-31338O-C6Igg7X4jL' '-f/tmp/magick-31338Dap84Uui1yGd'':    **** This file requires a password for access.
+Error: /invalidfileaccess in pdf_process_Encrypt
+Operand stack:
+
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   runpdf   --nostringval--   2   %stopped_push   --nostringval--   runpdf   runpdf   false   1   %stopped_push   2047   1   3   %oparray_pop   2046   1   3   %oparray_pop   2026   1   3   %oparray_pop   2027   1   3   %oparray_pop   runpdf   runpdf   runpdf   runpdf   false   1   %stopped_push
+Dictionary stack:
+   --dict:957/1684(ro)(G)--   --dict:1/20(G)--   --dict:82/200(L)--   --dict:82/200(L)--   --dict:133/256(r in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[28-Sep-2020 13:38:16 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `[ghostscript library 9,25] -sstdout=%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 '-sDEVICE=pamcmyk32' -dTextAlphaBits=4 -dGraphicsAlphaBits=4 '-r72x72' -dUseCIEColor  '-sOutputFile=/tmp/magick-31673iooyqWl3VbOQ%d' '-f/tmp/magick-31673YzarjP43dTS9' '-f/tmp/magick-31673MyYp09NEqFXs'':    **** This file requires a password for access.
+Error: /invalidfileaccess in pdf_process_Encrypt
+Operand stack:
+
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   runpdf   --nostringval--   2   %stopped_push   --nostringval--   runpdf   runpdf   false   1   %stopped_push   2047   1   3   %oparray_pop   2046   1   3   %oparray_pop   2026   1   3   %oparray_pop   2027   1   3   %oparray_pop   runpdf   runpdf   runpdf   runpdf   false   1   %stopped_push
+Dictionary stack:
+   --dict:957/1684(ro)(G)--   --dict:1/20(G)--   --dict:82/200(L)--   --dict:82/200(L)--   --dict:133/256(r in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[28-Sep-2020 13:44:28 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `[ghostscript library 9,25] -sstdout=%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 '-sDEVICE=pamcmyk32' -dTextAlphaBits=4 -dGraphicsAlphaBits=4 '-r72x72' -dUseCIEColor  '-sOutputFile=/tmp/magick-765ZWaK1AiWFt2n%d' '-f/tmp/magick-765-b2tAppid4mh' '-f/tmp/magick-765zrBS3UEIKMHa'':    **** This file requires a password for access.
+Error: /invalidfileaccess in pdf_process_Encrypt
+Operand stack:
+
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   runpdf   --nostringval--   2   %stopped_push   --nostringval--   runpdf   runpdf   false   1   %stopped_push   2047   1   3   %oparray_pop   2046   1   3   %oparray_pop   2026   1   3   %oparray_pop   2027   1   3   %oparray_pop   runpdf   runpdf   runpdf   runpdf   false   1   %stopped_push
+Dictionary stack:
+   --dict:957/1684(ro)(G)--   --dict:1/20(G)--   --dict:82/200(L)--   --dict:82/200(L)--   --dict:133/256(ro)(G)- in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[28-Sep-2020 13:48:30 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `[ghostscript library 9,25] -sstdout=%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 '-sDEVICE=pamcmyk32' -dTextAlphaBits=4 -dGraphicsAlphaBits=4 '-r72x72' -dUseCIEColor  '-sOutputFile=/tmp/magick-1799pQLBGcTChyHH%d' '-f/tmp/magick-1799XG7lq6iEhmYd' '-f/tmp/magick-17995zd_Zg1idgfK'':    **** This file requires a password for access.
+Error: /invalidfileaccess in pdf_process_Encrypt
+Operand stack:
+
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   runpdf   --nostringval--   2   %stopped_push   --nostringval--   runpdf   runpdf   false   1   %stopped_push   2047   1   3   %oparray_pop   2046   1   3   %oparray_pop   2026   1   3   %oparray_pop   2027   1   3   %oparray_pop   runpdf   runpdf   runpdf   runpdf   false   1   %stopped_push
+Dictionary stack:
+   --dict:957/1684(ro)(G)--   --dict:1/20(G)--   --dict:82/200(L)--   --dict:82/200(L)--   --dict:133/256(ro)( in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[04-Dec-2020 06:09:58 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `' @ error/constitute.c/ReadImage/564' in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php:16
+Stack trace:
+#0 /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php(16): Imagick->__construct('/tmp/phpl9h5dZ')
+#1 /home/agroboldcom/public_html/selecaodamarcha.com.br/includes/acesso/cadastro.php(327): include('/home/agroboldc...')
+#2 {main}
+  thrown in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[04-Dec-2020 06:10:57 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `' @ error/constitute.c/ReadImage/564' in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php:16
+Stack trace:
+#0 /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php(16): Imagick->__construct('/tmp/phprUyNae')
+#1 /home/agroboldcom/public_html/selecaodamarcha.com.br/includes/acesso/cadastro.php(327): include('/home/agroboldc...')
+#2 {main}
+  thrown in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[18-Aug-2021 19:38:26 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'no decode delegate for this image format `' @ error/constitute.c/ReadImage/564' in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php:16
+Stack trace:
+#0 /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php(16): Imagick->__construct('/tmp/php9L510o')
+#1 /home/agroboldcom/public_html/selecaodamarcha.com.br/includes/acesso/cadastro.php(327): include('/home/agroboldc...')
+#2 {main}
+  thrown in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[26-Aug-2021 12:10:16 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `[ghostscript library 9,25] -sstdout=%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 '-sDEVICE=pamcmyk32' -dTextAlphaBits=4 -dGraphicsAlphaBits=4 '-r72x72' -dUseCIEColor  '-sOutputFile=/tmp/magick-17712S0aRNPY4viDg%d' '-f/tmp/magick-17712M_Nv75uf5i1u' '-f/tmp/magick-177127ZOIZQeVwypJ'':    **** This file requires a password for access.
+Error: /invalidfileaccess in pdf_process_Encrypt
+Operand stack:
+
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   runpdf   --nostringval--   2   %stopped_push   --nostringval--   runpdf   runpdf   false   1   %stopped_push   2047   1   3   %oparray_pop   2046   1   3   %oparray_pop   2026   1   3   %oparray_pop   2027   1   3   %oparray_pop   runpdf   runpdf   runpdf   runpdf   false   1   %stopped_push
+Dictionary stack:
+   --dict:957/1684(ro)(G)--   --dict:1/20(G)--   --dict:82/200(L)--   --dict:82/200(L)--   --dict:133/256(r in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[26-Aug-2021 12:10:33 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `[ghostscript library 9,25] -sstdout=%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 '-sDEVICE=pamcmyk32' -dTextAlphaBits=4 -dGraphicsAlphaBits=4 '-r72x72' -dUseCIEColor  '-sOutputFile=/tmp/magick-177623UDjBRuTHK4s%d' '-f/tmp/magick-17762KFE3HXMtrv70' '-f/tmp/magick-17762jYMup3IEwlaz'':    **** This file requires a password for access.
+Error: /invalidfileaccess in pdf_process_Encrypt
+Operand stack:
+
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   runpdf   --nostringval--   2   %stopped_push   --nostringval--   runpdf   runpdf   false   1   %stopped_push   2047   1   3   %oparray_pop   2046   1   3   %oparray_pop   2026   1   3   %oparray_pop   2027   1   3   %oparray_pop   runpdf   runpdf   runpdf   runpdf   false   1   %stopped_push
+Dictionary stack:
+   --dict:957/1684(ro)(G)--   --dict:1/20(G)--   --dict:82/200(L)--   --dict:82/200(L)--   --dict:133/256(r in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[26-Aug-2021 12:10:47 America/Sao_Paulo] PHP Fatal error:  Uncaught exception 'ImagickException' with message 'Postscript delegate failed `[ghostscript library 9,25] -sstdout=%stderr -dQUIET -dSAFER -dBATCH -dNOPAUSE -dNOPROMPT -dMaxBitmap=500000000 -dAlignToPixels=0 -dGridFitTT=2 '-sDEVICE=pamcmyk32' -dTextAlphaBits=4 -dGraphicsAlphaBits=4 '-r72x72' -dUseCIEColor  '-sOutputFile=/tmp/magick-17834n89_6h8a5PVk%d' '-f/tmp/magick-17834DjGT-TUxWeBk' '-f/tmp/magick-17834HUwNWJ88qJgk'':    **** This file requires a password for access.
+Error: /invalidfileaccess in pdf_process_Encrypt
+Operand stack:
+
+Execution stack:
+   %interp_exit   .runexec2   --nostringval--   runpdf   --nostringval--   2   %stopped_push   --nostringval--   runpdf   runpdf   false   1   %stopped_push   2047   1   3   %oparray_pop   2046   1   3   %oparray_pop   2026   1   3   %oparray_pop   2027   1   3   %oparray_pop   runpdf   runpdf   runpdf   runpdf   false   1   %stopped_push
+Dictionary stack:
+   --dict:957/1684(ro)(G)--   --dict:1/20(G)--   --dict:82/200(L)--   --dict:82/200(L)--   --dict:133/256(r in /home/agroboldcom/public_html/sistema/include/class/otimiza_img.php on line 16
+[11-Dec-2023 12:41:46 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[11-Dec-2023 09:41:47 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_real_escape_string() in /home/agrobold/public_html/multleiloes.com.br/includes/acesso/login.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/includes/acesso/login.php on line 7
+[11-Dec-2023 12:41:53 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[11-Dec-2023 09:41:54 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function mysql_real_escape_string() in /home/agrobold/public_html/multleiloes.com.br/includes/acesso/login.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/includes/acesso/login.php on line 7
+[11-Dec-2023 12:44:32 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[11-Dec-2023 09:44:32 America/Sao_Paulo] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/agrobold/public_html/multleiloes.com.br/includes/acesso/login.php on line 39
+[11-Dec-2023 12:45:28 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[11-Dec-2023 09:45:28 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/agrobold/public_html/multleiloes.com.br/includes/acesso/login.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/includes/acesso/login.php on line 39
+[11-Dec-2023 12:45:38 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[11-Dec-2023 09:45:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::num_rows() in /home/agrobold/public_html/multleiloes.com.br/includes/acesso/login.php:39
+Stack trace:
+#0 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/includes/acesso/login.php on line 39
+[11-Dec-2023 12:46:35 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[11-Dec-2023 14:31:07 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[11-Dec-2023 15:34:42 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[11-Dec-2023 15:39:28 UTC] PHP Parse error:  syntax error, unexpected ')' in /home/agrobold/public_html/multleiloes.com.br/includes/acesso/senha.php on line 25
+[11-Dec-2023 15:40:02 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[11-Dec-2023 12:40:02 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function ereg() in /home/agrobold/public_html/multleiloes.com.br/config/funcoes.php:175
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/acesso/senha.php(14): valida_email('leonelpedro443@...')
+#1 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/funcoes.php on line 175
+[11-Dec-2023 15:41:22 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[11-Dec-2023 12:41:23 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function preg() in /home/agrobold/public_html/multleiloes.com.br/config/funcoes.php:175
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/acesso/senha.php(14): valida_email('leonelpedro443@...')
+#1 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/funcoes.php on line 175
+[13-Dec-2023 15:40:32 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[13-Dec-2023 15:40:34 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[13-Dec-2023 15:45:52 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[13-Dec-2023 15:53:43 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[13-Dec-2023 15:53:47 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[13-Dec-2023 15:54:20 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[15-Dec-2023 18:07:33 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[15-Dec-2023 18:07:39 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
