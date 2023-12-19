@@ -4,7 +4,8 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="banner-heading">
-            <h3 class="banner-title font-22px" style="color: #212121;font-weight: 700;"><?= $TITLE_EVENTS ?></h3>  
+            <!-- <h3 class="banner-title font-22px" style="color: #212121;font-weight: 700;"><?= $TITLE_EVENTS ?></h3> -->
+						<h3 class="banner-title"><?= $TITLE_EVENTS ?></h3> 
 					</div>
 				</div>
 			</div>

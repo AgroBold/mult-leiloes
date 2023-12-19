@@ -19,7 +19,7 @@ $TEXTO_HISTORIA = strip_tags(trim($dados->texto_historia_haras), '<p><br><b><str
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="banner-heading">
-            <h3 class="banner-title" style="color: #212121;font-weight: 700;">Sobre Nós</h3>  
+            <h3 class="banner-title">Sobre Nós</h3>
 					</div>
 				</div>
 			</div>

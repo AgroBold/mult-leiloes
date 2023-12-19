@@ -21,13 +21,25 @@ $sql =
 
 $resultado = executa_query($sql);
 
+if (isset($resultado->error_msg)) {
+  retorno_usuario("error", "Erro: $resultado->error_msg");
+}
+
 if (!empty($resultado->dados)) { ?>
 
-
-	<div class="row text-center mt-30px">
-		<h2 class="section-title">Eventos</h2>
-		<h3 class="section-sub-title margem_titulo nmb">EVENTOS EM ANDAMENTO</h3>
-	</div>
+  <div id="banner-area" class="banner-area">
+    <div class="banner-text">
+      <div class="container">
+        <div class="row">
+          <div class="col-xs-12">
+            <div class="banner-heading">
+              <h3 class="banner-title">EVENTOS EM ANDAMENTO</h3> 
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
 
 	<?

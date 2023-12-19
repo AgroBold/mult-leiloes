@@ -3,15 +3,30 @@
 $sql = "SELECT * FROM tab_parceiros WHERE '$leiloeira' = id_haras AND '1' = situacao";
 $resultado = executa_query($sql);
 
+if (isset($resultado->error_msg)) {
+	retorno_usuario("error", "Erro: $resultado->error_msg");
+}
+
 if (!empty($resultado->dados)) { ?>
+
+
+	<div id="banner-area" class="banner-area">
+		<div class="banner-text">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="banner-heading">
+							<h3 class="banner-title">PARCERIAS MULTLEILÕES</h3> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
 
 	<section class="news">
 		<div class="container">
-
-			<div class="row text-center">
-				<h2 class="section-sub-title margem_titulo mb-sm pl-10px-xs pr-10px-xs">Parceiros</h2>
-				<h3 class="section-sub-title">PARCERIA MULTLEILÕES</h3>
-			</div>
 
 			<div class="row">
 				<div class="row all-clients pl-10px-xs pr-10px-xs">

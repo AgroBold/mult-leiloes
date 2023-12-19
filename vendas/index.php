@@ -7,7 +7,8 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="banner-heading">
-            <h3 class="banner-title" style="color: #212121;font-weight: 700;">VENDA DIRETA</h3>  
+            <!-- <h3 class="banner-title" style="color: #212121;font-weight: 700;">VENDA DIRETA</h3> -->
+            <h3 class="banner-title">VENDA DIRETA</h3> 
 					</div>
 				</div>
 			</div>

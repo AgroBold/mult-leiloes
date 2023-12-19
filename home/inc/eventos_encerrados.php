@@ -13,19 +13,34 @@ $sql =
 
 $resultado = executa_query($sql);
 
+if (isset($resultado->error_msg)) {
+	retorno_usuario("error", "Erro: $resultado->error_msg");
+}
+
 $dados = $resultado->dados;
 
-$num_eventos_encerrados = sizeof($dados);
+$num_eventos_encerrados = count($dados);
 
 if ( $num_eventos_encerrados > 0 ) { ?>
 
+
+	<div id="banner-area" class="banner-area">
+		<div class="banner-text">
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12">
+						<div class="banner-heading">
+							<h3 class="banner-title">EVENTOS ENCERRADOS</h3> 
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
 	<section>
 		<div class="container">
-			
-			<div class="row text-center">
-				<h2 class="section-title">Eventos</h2>
-				<h3 class="section-sub-title margem_titulo">EVENTOS ENCERRADOS</h3>
-			</div>
 
 			<div class="row">
 

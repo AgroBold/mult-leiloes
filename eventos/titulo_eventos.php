@@ -2,7 +2,7 @@
 	<div class="container">
 
     <div class="row text-center">
-			<?= !verifica_url_page('detalhes/') ? '<hr class="nmt">' : '' ?>
+			<?= !verifica_url_page('detalhes/') && !verifica_url_page('evento/') ? '<hr class="nmt">' : '' ?>
 			<h5 class="section-sub-title margem_titulo red-template mb-sm pl-10px-xs pr-10px-xs"><?= $dado->titulo ?></h5>
 		</div>
 
