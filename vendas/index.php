@@ -7,7 +7,8 @@
 			<div class="row">
 				<div class="col-xs-12">
 					<div class="banner-heading">
-            <h3 class="banner-title" style="color: #212121;font-weight: 700;">VENDA DIRETA</h3>  
+            <!-- <h3 class="banner-title" style="color: #212121;font-weight: 700;">VENDA DIRETA</h3> -->
+            <h3 class="banner-title">VENDA DIRETA</h3> 
 					</div>
 				</div>
 			</div>
@@ -78,7 +79,7 @@
 
 
   document.addEventListener("DOMContentLoaded", function(event) { 
-    get_lotes_categoria('0', '<?= $id_leilao ?>');
+    get_lote_categoria('0', '<?= $id_leilao ?>');
 
     // CONTADOR DE LOTES
     $('#total_grupo_todos').text('('+<?= (int)$total_grupo_totos ?>+')');

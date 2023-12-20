@@ -364,3 +364,30 @@ Stack trace:
 #3 /home/agrobold/public_html/multleiloes.com.br/noticias/index.php(103): include('/home/agrobold/...')
 #4 {main}
   thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 13:03:21 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[18-Dec-2023 10:03:21 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::fetchAll() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:11
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(172): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/noticias/index.php(103): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 14:30:55 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 14:34:12 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 14:40:58 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 14:41:03 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 15:19:49 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:18:33 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:19:49 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:21:10 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:21:15 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:24:55 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:25:03 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:25:15 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:25:18 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:26:40 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 11:47:33 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 12:14:02 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 12:14:04 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 13:07:58 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9

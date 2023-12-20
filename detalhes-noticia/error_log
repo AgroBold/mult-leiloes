@@ -129,3 +129,4 @@ Stack trace:
 #3 /home/agrobold/public_html/multleiloes.com.br/detalhes-noticia/index.php(89): include('/home/agrobold/...')
 #4 {main}
   thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 10
+[18-Dec-2023 14:34:17 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9

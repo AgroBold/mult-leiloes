@@ -190,7 +190,7 @@
 
 						<?php
 						$nome_animal = $dados['nome_animal'];
-						$link = "https://api.whatsapp.com/send?phone=557191727633&text=Ol%C3%A1%20Seleção%20da%20Marcha%2C%20gostaria%20de%20fazer%20uma%20proposta%20ao%20{$nome_animal}%2C" ?>
+						$link = "https://api.whatsapp.com/send?phone=$tel_leiloeira&text=Ol%C3%A1%20Mult%Leilões%2C%20gostaria%20de%20fazer%20uma%20proposta%20ao%20{$nome_animal}%2C" ?>
 
 						<div class="col-sm-12 mt-sm pt-sm mb-md">
 							<p><b>Faça uma proposta neste lote!</b></p>

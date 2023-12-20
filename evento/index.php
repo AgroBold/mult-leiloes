@@ -42,7 +42,7 @@ $dado = $resultado->dados[0];
 
 ?>
 
-<section>
+
   <div class="container">
     <?php
       include('../eventos/titulo_eventos.php'); 
@@ -61,7 +61,7 @@ $dado = $resultado->dados[0];
       <h3>Filtrando Animais...</h3>
     </div>
   </div>
-</section>
+
 
 
 <script>

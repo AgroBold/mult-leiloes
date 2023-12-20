@@ -1,6 +1,6 @@
 <div class="col-md-4 mb-50">
   <a href="../detalhes/?lote=<?= criptografa($animal->id_lote_leilao) ?>&div_lote">
-    <!-- <div class="ts-team-wrapper pa-md" style="border: 1px solid #600300"> -->
+    <!-- <div class="ts-team-wrapper pa-md" style="border: 1px solid #6c6c74"> -->
     <div class="ts-team-wrapper pa-md card-animal">
       
       <?php

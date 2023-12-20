@@ -1,0 +1,1 @@
+[18-Dec-2023 13:53:28 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9

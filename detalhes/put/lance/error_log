@@ -1,0 +1,27 @@
+[18-Dec-2023 13:38:51 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[18-Dec-2023 10:38:51 America/Sao_Paulo] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/agrobold/public_html/multleiloes.com.br/detalhes/put/lance/index.php on line 47
+[18-Dec-2023 13:43:45 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 10:43:45 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function contem_substring() in /home/agrobold/public_html/multleiloes.com.br/config/funcoes.php:169
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/detalhes/put/lance/envia_email_leiloeira_lance.php(3): valida_email('ribeirosacarlos...')
+#1 /home/agrobold/public_html/multleiloes.com.br/detalhes/put/lance/index.php(221): include('/home/agrobold/...')
+#2 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/funcoes.php on line 169
+[18-Dec-2023 13:43:52 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 10:43:52 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function contem_substring() in /home/agrobold/public_html/multleiloes.com.br/config/funcoes.php:169
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/detalhes/put/lance/envia_email_leiloeira_lance.php(3): valida_email('ribeirosacarlos...')
+#1 /home/agrobold/public_html/multleiloes.com.br/detalhes/put/lance/index.php(221): include('/home/agrobold/...')
+#2 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/funcoes.php on line 169
+[18-Dec-2023 13:43:57 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 13:44:01 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 10:44:01 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined function contem_substring() in /home/agrobold/public_html/multleiloes.com.br/config/funcoes.php:169
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/detalhes/put/lance/envia_email_leiloeira_lance.php(3): valida_email('ribeirosacarlos...')
+#1 /home/agrobold/public_html/multleiloes.com.br/detalhes/put/lance/index.php(221): include('/home/agrobold/...')
+#2 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/funcoes.php on line 169
+[18-Dec-2023 13:44:56 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 10:44:58 America/Sao_Paulo] PHP Warning:  sizeof(): Parameter must be an array or an object that implements Countable in /home/agrobold/public_html/multleiloes.com.br/detalhes/put/lance/envia_emails_disputantes_lance.php on line 19
+[18-Dec-2023 13:46:08 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9

@@ -640,3 +640,127 @@ Stack trace:
 #3 /home/agrobold/public_html/multleiloes.com.br/eventos/index.php(192): include('/home/agrobold/...')
 #4 {main}
   thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 12:27:37 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[18-Dec-2023 09:27:37 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::fetchAll() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:11
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(172): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/eventos/index.php(192): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 12:27:41 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[18-Dec-2023 09:27:41 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::fetchAll() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:11
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(172): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/eventos/index.php(192): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 12:27:42 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[18-Dec-2023 09:27:42 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::fetchAll() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:11
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(172): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/eventos/index.php(192): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 12:41:43 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[18-Dec-2023 09:41:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::fetchAll() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:11
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(172): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/eventos/index.php(192): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 12:42:49 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[18-Dec-2023 09:42:49 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::fetchAll() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:11
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(172): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/eventos/index.php(192): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 12:45:36 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[18-Dec-2023 09:45:36 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::fetchAll() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:11
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(172): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/eventos/index.php(192): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 13:03:25 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[18-Dec-2023 10:03:26 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::fetchAll() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:11
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(172): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/eventos/index.php(192): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 13:03:38 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[18-Dec-2023 10:03:38 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::fetchAll() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:11
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(172): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/eventos/index.php(192): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 13:03:43 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[18-Dec-2023 10:03:43 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::fetchAll() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:11
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(172): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/eventos/index.php(192): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 13:23:29 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 19
+[18-Dec-2023 10:23:29 America/Sao_Paulo] PHP Fatal error:  Uncaught Error: Call to undefined method stdClass::fetchAll() in /home/agrobold/public_html/multleiloes.com.br/config/api.php:11
+Stack trace:
+#0 /home/agrobold/public_html/multleiloes.com.br/includes/modals/inc/form_cadastro.php(16): get_estados('', false)
+#1 /home/agrobold/public_html/multleiloes.com.br/includes/modals/modals_acesso.php(16): include('/home/agrobold/...')
+#2 /home/agrobold/public_html/multleiloes.com.br/includes/footer.php(176): include('/home/agrobold/...')
+#3 /home/agrobold/public_html/multleiloes.com.br/eventos/index.php(192): include('/home/agrobold/...')
+#4 {main}
+  thrown in /home/agrobold/public_html/multleiloes.com.br/config/api.php on line 11
+[18-Dec-2023 14:49:29 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 14:51:04 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 15:19:52 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:26:43 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:29:38 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:30:35 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:32:49 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:33:15 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:33:25 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:33:40 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:34:04 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:36:12 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:36:12 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:36:13 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:36:44 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[18-Dec-2023 17:36:50 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 11:22:25 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 11:25:22 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 12:08:07 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 12:12:00 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 12:12:21 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 12:13:42 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 12:20:33 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 12:59:43 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 13:01:32 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 13:01:56 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 13:02:47 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 13:02:48 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 13:02:50 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 13:02:55 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 13:03:12 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 13:04:51 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 13:06:08 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
+[19-Dec-2023 14:17:36 UTC] PHP Warning:  session_cache_expire(): Cannot change cache expire when session is active in /home/agrobold/public_html/multleiloes.com.br/config/config.php on line 9
